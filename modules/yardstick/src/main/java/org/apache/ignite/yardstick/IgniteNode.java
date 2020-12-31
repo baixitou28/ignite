@@ -324,7 +324,9 @@ public class IgniteNode implements BenchmarkServer {
 
             Collection<String> toDisplay = new TreeSet<>();
 
-            String portRange = cfg.customProperties().get("PORT_RANGE") != null ?
+            String portRange = cfg.customPr
+
+            operties().get("PORT_RANGE") != null ?
                 cfg.customProperties().get("PORT_RANGE") :
                 DFLT_PORT_RANGE;
 
